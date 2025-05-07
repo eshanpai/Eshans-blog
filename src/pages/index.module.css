@@ -1,0 +1,105 @@
+/* main content wrapper */
+.mainContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+/* ---- Intro / CTA ---- */
+.introSection {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.image {
+  height: 160px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.tagline {
+  font-size: 20px;
+}
+
+.introText {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ifm-font-color-secondary);
+  margin-bottom: 2rem;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaButtons a {
+  font-size: 12px;
+}
+
+/* ---- Divider ---- */
+.divider {
+  border: none;
+  border-top: 2px solid var(--ifm-color-gray-300);
+  margin: 3rem 0;
+}
+
+/* ---- Ventures Grid ---- */
+.venturesGrid {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  gap: 2rem;
+  text-align: center;
+}
+
+.ventureItem h4 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 16px;
+}
+
+.ventureItem p {
+  margin: 0;
+  color: var(--ifm-font-color-secondary);
+  font-size: 14px;
+}
+
+.ventureIcon {
+  width: 64px;
+  height: 64px;
+}
+
+/* ---- Contact ---- */
+.contactSection {
+  text-align: center;
+}
+
+.contactSection h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contactIcons a {
+  font-size: 28px;
+  color: var(--ifm-font-color-secondary);
+}
+
+/* ---- Responsive Adjustments ---- */
+@media (maxn-width: 768px) {
+  .mainContent {
+    padding: 4rem 2rem;
+  }
+  .introText {
+    font-size: 1.25rem;
+  }
+}

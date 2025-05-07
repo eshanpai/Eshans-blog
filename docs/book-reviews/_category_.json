@@ -1,0 +1,8 @@
+{
+    "label": "Book Reviews",
+    "position": "1",
+    "link": {
+        "type": "generated-index",
+        "description": "Thoughtful analyses of notable books, offering practical insights and key takeaways for readers."
+    }
+}

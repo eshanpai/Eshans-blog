@@ -1,0 +1,8 @@
+{
+    "label": "The Daily Yarn",
+    "position": "5",
+    "link": {
+        "type": "generated-index",
+        "description": "Daily dispatches exploring fintech trends, thought leadership, and timely industry commentary."
+    }
+}
