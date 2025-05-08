@@ -63,7 +63,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/eshan-pai/" aria-label="LinkedIn">
               <AiOutlineLinkedin />
             </a>
-            <a href="mailto:you@example.com" aria-label="Email">
+            <a href="mailto:hello@eshanpai.com" aria-label="Email">
               <MdOutlineEmail />
             </a>
           </div>
